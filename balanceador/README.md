@@ -25,12 +25,3 @@ Cada microservicio responde con un mensaje distinto, y el balanceador reparte la
 | Balanceador Flask | 5000 | Implementa algoritmo Round-Robin |
 | Proxy NGINX | 8080 | Entrada frontal del sistema |
 
----
-
-## 📦 Instalación y ejecución
-
-### 1️⃣ Instalar dependencias
-```bash
-sudo apt update
-sudo apt install python3 python3-pip nginx -y
-pip install -r requirements.txt
